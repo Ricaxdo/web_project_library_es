@@ -243,7 +243,7 @@
   flex-direction: column;
   /*Tenia un gap de 10px pero se lo reduje a 5px para que
   el espaciado entre la image y la caption estuviera mas considerada*/
-  gap: 5;
+  gap: 5px;
 }
 
 .person_name_feynman {
