@@ -241,7 +241,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  /*Tenia un gap de 10px pero se lo reduje a 5px para que
+  el espaciado entre la image y la caption estuviera mas considerada*/
+  gap: 5;
 }
 
 .person_name_feynman {
@@ -255,11 +257,13 @@
 }
 
 .person_name_cannon {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
