@@ -128,11 +128,7 @@
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   width: 360px;
-  /*Aqui dejarlo en 420px me limitaba el contenido total
-  de la card, por lo que esta ahora con min-height se
-  adapta a lo que halla dentro de la misma*/
-  min-height: 420px;
-  /*min-height por height*/
+  height: 420px;
   display: flex;
   flex-direction: column;
 }
@@ -157,21 +153,11 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-  /*Con este 'flex' vi que el box que contiene el parrafo
-  toma el total sobrante de toda la card*/
-  flex: 1;
 }
 
 .card__footer {
-  /*Quite el AUTO y añadi 10px para darle un espaciado
-  entre el card__text y el card__footer*/
-  margin: 10px 0 0;
-  /*'10px' por 'auto'*/
+  margin: auto 0 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
 }
-
-/*No se si sea correcto hacer esto, puesto que mis cards
- de abajo son mas grandes, bueno aunque solamente la ultima
- es la que es mas grande y afecta a la otra*/
