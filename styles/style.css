@@ -344,7 +344,6 @@
 
 .footer__columns {
   display: flex;
-  align-items: flex-start;
 }
 
 .footer__column_content_hours {
