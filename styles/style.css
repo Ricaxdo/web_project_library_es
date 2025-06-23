@@ -381,6 +381,10 @@
   color: #ffffff;
 }
 
+.footer__list-text {
+  margin: 0;
+}
+
 .footer__column-link {
   color: white;
   text-decoration: none;
