@@ -340,6 +340,7 @@
   box-sizing: border-box;
   padding: 60px 80px;
   background-color: #1f1f1f;
+  color: #ffffff;
 }
 
 .footer__columns {
@@ -368,7 +369,6 @@
 }
 
 .footer__column-heading {
-  color: #ffffff;
   margin: 0 0 20px;
 }
 
@@ -382,7 +382,6 @@
 }
 
 .footer__list-item {
-  color: #ffffff;
   margin: 0;
 }
 
