@@ -346,10 +346,14 @@
   display: flex;
 }
 
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column_content_hours {
   margin: 0 0 0 auto;
   display: flex;
-  flex-direction: column;
 }
 
 .footer__column_content_social {
